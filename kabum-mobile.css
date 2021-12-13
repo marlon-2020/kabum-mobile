@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Poppins, sans-serif !important;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+*:visited{
+    color: #7d7d7d;
+}
+.app{
+    width:100%;
+}
+
+    /*MENU*/
+    .menu-container{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        height:100px;
+        width: 100%;
+        align-items: center;
+        padding:10px;
+        background-color: #0060b1;
+        position:sticky;
+        top:0;
+        left:0;
+    }
+    .menu-top,.menu-bottom{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .menu-bar-container{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        cursor: pointer;
+    }
+    .menu-list-container{
+        width: 0px;
+        height: 100%;
+        overflow: hidden;
+        position: fixed;
+        top:0;
+        left:0;
+        transition: width 1s;
+        background-color: white;
+        display: grid;
+        grid-template-rows: 78px 48px 100px;
+    }
+    .user-container{
+        padding: 18px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0060b1;
+    }
+    .category{
+        padding: 12.5px 18px 12.5px 18px;
+        display: flex;
+        justify-content: space-between;
+        color: #7d7d7d;
+        font-weight: bolder;
+        background-color: rgba(223,229,242,0.8);
+    }
+    .user-phrase{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .user-phrase svg,.user-phrase span{
+        cursor: pointer;
+        color:white;
+        font-weight: bolder;
+    }
+    .user-phrase>span{
+        padding: 0 0 0 10px;
+    }
+    .menu-list-option-container>p{
+        padding: 12.5px 18px 12.5px 18px; 
+        color: #7d7d7d;
+    }
+    .border-bottom{
+        border-bottom: 1px solid rgba(172, 170, 170, 0.486);
+    }
+    .menu-logo-container{
+        padding: 0 0 0 20px;
+    }
+    .menu-form-container{
+        width:90%;
+    }
+    .menu-form-container form input{
+        width:100%;
+        height:40px;
+    }
+    /*BANNER*/
+    .banner-container{
+        max-width: 100%;
+
+    }
+    .banner-container>img{
+        width: 100%;
+    }
+    /*CATEGORIA*/
+    .category-container{
+        padding:30px;
+        color:rgb(255, 101, 0);
+        font-weight: bolder;
+    }
+    /*PRODUTOS*/
+    .product-container{
+        display:grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 200px;
+        padding: 10px 0;
+    }
+    .product-discount-pic-container{
+        display:grid;
+        grid-template-rows: 33.33% 66.66%;
+    }
+    .discount-container{
+        padding: 10px;
+    }
+    .discount{
+        border: 3px solid rgb(255, 101, 0);
+        border-radius: 5px;
+        color:rgb(255, 101, 0);
+        font-size:14px;
+        width:60px;
+        font-weight: bold;
+        height: 30px;
+    }
+    .pic-container{
+        margin: 0 auto auto auto;
+    }
+    .product-detail{
+        display:grid;
+        grid-template-rows: 14.25% 14.25% 14.25% 14.25% 14.25% 28.5%;
+    }
+    .product-value-original{
+        font-size: 20px;
+        font-weight:bolder;
+        color:rgb(255, 101, 0);
+    }
+    .product-brand{
+        color:gray;
+        font-size:12px;
+    }
+    .produt-name{
+        font-weight: bolder;
+    }
+    .payment-method{
+        font-size: 12px;
+    }
+    .product-value{
+        color:gray;
+        font-weight: bolder;
+    }
+    .product-expire-container{
+        background-color: black;
+        width: 85%;
+        border-radius: 5px;
+        color: white;
+        display:grid;
+        grid-template-columns: 40% 60%;
+    }
+    .pic-clock-container{
+        margin:auto;
+    }
+    .paragraph-container{
+        margin:auto 0 auto 0;
+    }
+    .phrase{
+        font-size: 12px;
+    }
+    .date{
+        color:rgb(255, 101, 0);
+        font-weight: bolder;
+    }
+    /*FOOTER*/
+.footer-container{
+    display: grid;
+    grid-template-rows: 410px 277px 92px;
+    background-color: #0060b1;
+}
+.footer-center{
+    background-color: #233d75;
+}
+.footer-bottom{
+    background:#162b58;
+}
