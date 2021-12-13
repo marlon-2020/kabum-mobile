@@ -38,13 +38,13 @@
         cursor: pointer;
     }
     .menu-list-container{
-        width: 0px;
+        transition: all 0.5s;
+        width: 0%;
         height: 100%;
         overflow: hidden;
         position: fixed;
         top:0;
         left:0;
-        transition: width 1s;
         background-color: white;
         display: grid;
         grid-template-rows: 78px 48px 100px;

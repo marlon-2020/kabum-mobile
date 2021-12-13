@@ -13,13 +13,14 @@ setInterval(()=>{
 },1000)
 
 /*MENU-BAR*/
-var menu_bar_container = document.getElementsByClassName("menu-bar-container");
-var menu_list_container = document.getElementsByClassName("menu-list-container");
-var close_icon = document.getElementsByClassName("bi-x");
+var menuContainer = document.getElementsByClassName("menu-icon-container");
+var menu = document.getElementsByClassName("menu-list-container");
+var closeIcon = document.getElementsByClassName("close-button");
 
-menu_bar_container[0].addEventListener("click", ()=>{
-    menu_list_container[0].style.width="75%";
+menuContainer[0].addEventListener("click", ()=>{
+    menu[0].style.width="75%";
 })
-close_icon[0].addEventListener("click", ()=>{
-    menu_list_container[0].style.width="0%";
+closeIcon[0].addEventListener("click", ()=>{
+    menu[0].style.width="0%";
+    console.log(menu[0].style.width)
 })
